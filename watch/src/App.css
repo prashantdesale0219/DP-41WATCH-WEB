@@ -182,3 +182,21 @@ background-image: linear-gradient(147deg, #990000 0%, #ff0000 74%);
  
  
 }
+@media (min-width: 400px ) and (max-width: 420px) {
+  .ordermain{
+    display: flex;
+    flex-direction: column;
+  }
+  .loading{
+    font-size: 30px;
+    margin:40% auto;
+  }
+  form input{
+    width: 100px;
+  }
+  .f-input{
+    width: 100px;
+  }
+ 
+ 
+}

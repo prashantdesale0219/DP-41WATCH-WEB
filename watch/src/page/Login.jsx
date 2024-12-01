@@ -74,24 +74,25 @@ const Login = () => {
             placeholder="Email Address"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            style={{ border: "none", width: "400px" }}
+            style={{ border: "none", width: "100%" }}
+            // className='f-input'
           /> <br /><br />
           <input
             type="password"
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            style={{ border: "none", width: "400px" }}
+            style={{ border: "none", width: "100%" }}
           /> <br /><br />
           <span style={{ textAlign: "left" }}>
             <a href="/">Forgot your password?</a>
           </span><br /><br />
           <input type="submit" style={{ height: "50px", width: "120px", marginLeft: "-30%" }} className='btn btn-outline-secondary' />
-        </form>
+        </form>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <button
           onClick={handleDeleteAccount}
           className='btn btn-outline-danger'
-          style={{ height: "50px", width: "120px", position: "relative", left: "16%", top: "-19.50%" }}
+          style={{ height: "50px", width: "120px", position: "relative", left: "16%", top: "-18.50%" }}
         >
           LOGOUT
         </button>

@@ -32,8 +32,8 @@ const Signup = () => {
               <form action="" onSubmit={(e)=>handleclick(e)}>
               <h5 >CREATE ACCOUNT</h5><br />
               <p>Please enter your email address to create an account.</p>
-                <input type="text" placeholder='EMAIL ADDRESS' onChange={(e)=>setemail(e.target.value)} style={{border:"none",width:"400px"}}/> <br /><br />
-                <input type="password" placeholder='PASSWORD' onChange={(e)=>setpassword(e.target.value)} style={{border:"none",width:"400px"}}/> <br /><br />
+                <input type="text" placeholder='EMAIL ADDRESS' onChange={(e)=>setemail(e.target.value)} style={{border:"none",width:"100%"}}/> <br /><br />
+                <input type="password" placeholder='PASSWORD' onChange={(e)=>setpassword(e.target.value)} style={{border:"none",width:"100%"}}/> <br /><br />
                 <input type="submit" style={{height:"50px",width:"120px" }}className='btn btn-outline-success'/>
               </form>
   
